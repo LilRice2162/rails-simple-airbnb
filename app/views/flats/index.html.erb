@@ -7,7 +7,6 @@
     <%= flat.number_of_guests %>|
     <%= link_to "Delete", flat_path(flat), data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} %>
     <%# <%= link_to "Review", new_flat_review_path(flat) %>
-    <%# <%= link_to "Delete", flat_path(flat), data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} %>
 </li>
   <% end %>
   <%= link_to "Create new flat" , new_flat_path() %>
